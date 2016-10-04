@@ -1,0 +1,5 @@
+[user]
+	name = Chris Ryan
+	email = cryan@forever.com
+[core]
+	excludesfile = ~/.gitignore
