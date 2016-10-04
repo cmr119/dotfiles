@@ -3,3 +3,6 @@
 	email = cryan@forever.com
 [core]
 	excludesfile = ~/.gitignore
+[alias]
+	co = checkout
+	br = branch

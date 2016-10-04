@@ -19,6 +19,7 @@ alias gb="git branch"
 alias gri="git rebase -i"
 alias gd="git diff"
 alias gap='git add -p'
+alias gl='git log'
 
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
