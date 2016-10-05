@@ -4,9 +4,10 @@ filetype plugin indent on
 filetype plugin on
 
 set hlsearch
-set relativenumber 
+set relativenumber
 set number
 set ttyfast
+set colorcolumn=80
 set mouse=a
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
