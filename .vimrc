@@ -3,6 +3,7 @@ syntax on
 filetype plugin indent on
 filetype plugin on
 
+set incsearch
 set hlsearch
 set relativenumber
 set number
@@ -30,6 +31,10 @@ map <leader>nt :NERDTreeToggle<CR>
 map <leader>l :noh<CR>
 
 imap jj <esc>
+
+imap <Tab> <C-p>
+set complete=.,b,u,]
+set wildmode=longest,list:longest
 
 vnoremap ( "zdi(<C-R>z)<ESC>
 vnoremap { "zdi{<C-R>z}<ESC>
