@@ -26,15 +26,13 @@ set smartcase
 
 let mapleader=","
 let NERDTreeShowLineNumbers=1
+let g:SuperTabCrMapping=1
 
 map <leader>nt :NERDTreeToggle<CR>
 map <leader>l :noh<CR>
+map <leader><CR> i<CR><ESC>
 
 imap jj <esc>
-
-imap <Tab> <C-p>
-set complete=.,b,u,]
-set wildmode=longest,list:longest
 
 vnoremap ( "zdi(<C-R>z)<ESC>
 vnoremap { "zdi{<C-R>z}<ESC>
