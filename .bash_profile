@@ -20,7 +20,7 @@ alias gri="git rebase -i"
 alias gd="git diff"
 alias gap='git add -p'
 alias gl='git log'
-alias gf='git fetch'
+alias gf='git fetch -p'
 
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'

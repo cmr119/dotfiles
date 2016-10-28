@@ -1,2 +1,4 @@
 tags
 *.swp
+set_production_mail.sh
+unset_production_mail.sh

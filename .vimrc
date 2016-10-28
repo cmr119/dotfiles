@@ -24,6 +24,11 @@ set smartindent
 set ignorecase
 set smartcase
 
+set laststatus=2
+
+let g:ctrlp_custom_ignore = '\v[\/](\.git|build)$'
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+
 let mapleader=","
 let NERDTreeShowLineNumbers=1
 let g:SuperTabCrMapping=1
