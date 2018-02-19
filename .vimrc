@@ -26,7 +26,7 @@ set smartcase
 
 set laststatus=2
 
-let g:ctrlp_custom_ignore = '\v[\/](\.git|build)$'
+let g:ctrlp_custom_ignore = '\v[\/](\.git|build|node_modules)$'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 
 let mapleader=","
@@ -38,6 +38,7 @@ map <leader>l :noh<CR>
 map <leader><CR> i<CR><ESC>
 
 imap jj <esc>
+imap kk <esc>
 
 vnoremap ( "zdi(<C-R>z)<ESC>
 vnoremap { "zdi{<C-R>z}<ESC>
