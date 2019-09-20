@@ -7,4 +7,5 @@ set_production_mail.sh
 unset_production_mail.sh
 restore_database.sh
 restart_spring.sh
+no_features.sh
 spec/requests/template.rb

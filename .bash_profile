@@ -25,13 +25,16 @@ alias gds="gd --staged"
 alias gap='git add -p'
 alias gl='git log'
 alias gf='git fetch -p'
+alias gfall='git fetch --all -p'
 alias gg='git grep'
+alias gcm="git commit -m"
 
 #heroku
 alias h="heroku"
 
 #localtunnel
 alias lt3000='lt --port 3000 --subdomain cryan'
+alias lt80='lt --port 80 --subdomain cryan'
 
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
@@ -45,5 +48,5 @@ fi
 
 # Setting PATH for Python 3.6
 # The original version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+PATH=":/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
 export PATH

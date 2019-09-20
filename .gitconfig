@@ -6,3 +6,4 @@
 [alias]
 	co = checkout
 	br = branch
+  cp = cherry-pick

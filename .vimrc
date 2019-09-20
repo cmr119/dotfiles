@@ -3,6 +3,8 @@ syntax on
 filetype plugin indent on
 filetype plugin on
 
+autocmd BufRead,BufNewFile *.jb set filetype=ruby
+
 set incsearch
 set hlsearch
 set relativenumber
@@ -32,6 +34,8 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 let mapleader=","
 let NERDTreeShowLineNumbers=1
 let g:SuperTabCrMapping=1
+let g:NERDSpaceDelims=1
+let g:NERDDefaultAlign = 'left'
 
 map <leader>nt :NERDTreeToggle<CR>
 map <leader>l :noh<CR>
